@@ -124,53 +124,6 @@ OpenTelemetry:
 
 ---
 
-## High-Level Architecture
-
-┌──────────────────────┐
-│ Client Applications  │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ FastAPI Gateway      │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ Document Processor   │
-└──────────┬───────────┘
-│
-├────────► Azure Document Intelligence
-│
-└────────► Tesseract OCR Fallback
-│
-▼
-┌──────────────────────┐
-│ Chunking Service     │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ Embedding Service    │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ FAISS Vector Store   │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ LangGraph Workflow   │
-└──────────┬───────────┘
-│
-▼
-┌──────────────────────┐
-│ Answer + Citations   │
-└──────────────────────┘
-
----
-
 ## Repository Structure
 
 ```text
