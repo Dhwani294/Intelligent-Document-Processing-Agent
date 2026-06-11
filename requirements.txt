@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+langgraph
+faiss-cpu
+pydantic
+sqlalchemy
+psycopg2-binary
+pytest
