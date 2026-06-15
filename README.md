@@ -413,8 +413,5 @@ MIT License
 
 ---
 
-## Author
-
-Enterprise Intelligent Document Processing Platform
 
 Built using FastAPI, LangGraph, Azure AI, FAISS, PostgreSQL, Redis, OpenTelemetry, and Prometheus.
