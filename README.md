@@ -22,9 +22,7 @@ The platform combines:
 * Prometheus monitoring
 
 The system supports both digitally generated PDFs and scanned documents while providing source-grounded answers with citations and hallucination detection metrics.
-
 ---
-
 ## Business Value
 
 Organizations process thousands of documents every day including:
