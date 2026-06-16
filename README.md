@@ -10,6 +10,7 @@ Intelligent Document Processing Agent is a production-oriented platform designed
 
 The platform combines:
 
+
 * Azure Document Intelligence
 * OCR fallback using Tesseract
 * LangGraph agent orchestration
